@@ -95,3 +95,16 @@ body {
   font-size: 1.5rem;
   margin-top: -6px;
 }
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #fff;
+  display: none;
+}
