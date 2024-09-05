@@ -66,4 +66,73 @@ body {
   flex-direction: column;
   align-items: center;
   font-weight: 700;
+  font-size: 22px;
+}
+
+.profile-card .text-data .job {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.profile-card .text-data .mailid {
+  font-size: 15px;
+  font-weight: 500;
+  color: #89c0e5;
+  margin-bottom: 10px;
+}
+
+.profile-card .media-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.profile-card .media-buttons .link {
+  font-size: 18px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.profile-card .buttons .button {
+  color: white;
+  font-size: 14px;
+  margin: 0px 10px;
+  padding: 3px 18px;
+  background-color: #4070f4;
+  border: none;
+  border-radius: 24px;
+}
+
+.profile-card .buttons {
+  margin-top: 15px;
+}
+.profile-card .buttons #streak {
+  background-color: #01568e;
+}
+
+.data:last-child {
+  border-right: none;
+}
+
+.profile-card .analytics {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.profile-card .analytics .edit-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #89c0e5;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 100%;
+  margin-top: 30px;
+  color: rgba(241, 241, 241, 0.475);
+  height: 0.3px;
 }
