@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: palevioletred;
+  width: 400px;
+  padding: 10px;
+  border-radius: 1rem;
+  gap: 20px;
+}
+
+.circular-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.circular-progress::before {
+  content: “”;
+  position: absolute;
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.progress-value {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: darkslategrey;
+}
