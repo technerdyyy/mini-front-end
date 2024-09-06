@@ -1,0 +1,33 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  background: plum;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stopwatch-container {
+  text-align: center;
+}
+
+#stopwatch {
+  font-size: 32px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: purple;
+  border: 2px solid;
+}
+
+.buttons button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0.5rem;
+  background-color: purple;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: rgb(211, 69, 211);
+}
