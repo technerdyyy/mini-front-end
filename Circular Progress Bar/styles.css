@@ -51,3 +51,9 @@ body {
   font-weight: 600;
   color: darkslategrey;
 }
+
+.text {
+  font-size: 30px;
+  font-weight: 500;
+  color: darkslategrey;
+}
